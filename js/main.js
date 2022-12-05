@@ -1,4 +1,9 @@
+'use strict'
+
+const MY_MAIL = 'maoraknin125@gmail.com'
+
 console.log('Starting up');
+
 
 function onInit() {
     renderProjItem()
@@ -84,6 +89,14 @@ const strHtml = `
 function goToUrl(url) {
     console.log('here');
     window.open(url)
+}
+
+function onSend(ev){
+    ev.preventDefault()
+    const subject = $('#subject').val()
+    const textArea = $('#text-area').val()
+
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${MY_MAIL}&su=${subject}&body=${textArea}`)
 }
 
 
