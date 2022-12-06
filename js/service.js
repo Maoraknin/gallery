@@ -12,8 +12,8 @@ function createProjs() {
     projects.push(createProj('guess-me', 'GuessMe', 'First work JQuery and Bootstrap', 'a self lerning bot who guesses a person you thought about and learn from his mistakes', "https://maoraknin.github.io/GuessMe/", 1670162930000, ['Bootstrap', 'JQuery', 'LocalStorage']))
     projects.push(createProj('touch-nums', 'Touch-Nums', 'First free work with Vanilla JS and CSS', 'the user need to press all the squares at the best time', "https://maoraknin.github.io/touchnums/", 1668694130000, ['CSS', 'JS', 'LocalStorage']))
     projects.push(createProj('mine-sweeper', 'Mine-Sweeper', 'First independent project in the course', 'reveale all the empty cells without stepping on mines', "https://maoraknin.github.io/Mine-Sweeper/", 1669212530000, ['CSS', 'JS', 'LocalStorage']))
-    projects.push(createProj('book-shop', 'Book-Shop', 'web librery', 'an app that act like a wep librery', "https://maoraknin.github.io/book-shop/", 1669212530000, ['CSS', 'JS', 'LocalStorage']))
-    // projects.push(createProj('book-shop', 'Book-Shop', 'web librery', 'eat all the food and run away from the ghosts!', "https://maoraknin.github.io/Pac-man/", 1669212530000, ['CSS', 'JS']))
+    projects.push(createProj('book-shop', 'Book-Shop', 'web librery', 'an app that act like a wep librery', "https://maoraknin.github.io/book-shop/", 1669917572000, ['CSS', 'JS', 'LocalStorage']))
+    projects.push(createProj('pac-man', 'Pac-Man', 'The worlds Most nostalgic game!', 'eat all the food and run away from the ghosts', "https://maoraknin.github.io/Pac-man/", 1669053572000, ['CSS', 'JS']))
     
     gProjects = projects
 }

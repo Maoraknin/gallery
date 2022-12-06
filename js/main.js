@@ -27,14 +27,10 @@ function renderProjItem() {
            <p class="text-muted">${project.title}</p>
           </div>
         </div>`
-
     )
-
     console.log($('.item-container'));
     $('.item-container').html(strHTMLs.join(''))
 }
-
-
 function renderModal(projectId) {
     const project = getProjectById(projectId)
 const strHtml = `
